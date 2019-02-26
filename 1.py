@@ -1,3 +1,4 @@
+#this code sums points for football team from score array
 def points(games):
 	sumGames = 0
 	i = 0
