@@ -1,3 +1,5 @@
+#counting positives and sum negatives
+
 def count_positives_sum_negatives(arr):
   if len(arr) > 0:
     result = [0, 0]
@@ -14,6 +16,6 @@ def count_positives_sum_negatives(arr):
     return result
   else:
     result = []
-    print(result)
+    return result
 
-count_positives_sum_negatives([])
+count_positives_sum_negatives([1,2,3,4,-19,-2])
