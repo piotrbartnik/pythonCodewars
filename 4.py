@@ -9,8 +9,6 @@ def invert(lst):
     else:
       lst[i] = -lst[i]
       i += 1
-
-
-  print(lst)
+  return lst
 
 invert([1,-2,3,-4,5])
