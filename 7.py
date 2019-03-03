@@ -1,3 +1,4 @@
+# count the digit in all squared
 def nb_dig(n, d):
   i = 0
   res = []
