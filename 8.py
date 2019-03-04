@@ -1,4 +1,4 @@
-
+#reverse array with susequent nums
 def reverse_seq(n):
   arr = []
   for x in range(n):
