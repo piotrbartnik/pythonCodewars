@@ -1,3 +1,4 @@
+#print max ad min from array
 def min_max(lst):
   res = []
   lst.sort()
