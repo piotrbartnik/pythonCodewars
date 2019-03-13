@@ -1,4 +1,4 @@
-
+# returns position of capital letter
 def capitals(word):
   i = 0 
   result = []
