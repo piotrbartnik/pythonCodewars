@@ -1,3 +1,4 @@
+# converting binary array to number
 def binary_array_to_number(arr):
   res = []
   for i in arr:
