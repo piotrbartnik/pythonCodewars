@@ -1,5 +1,4 @@
 def longest(s1, s2):
-  for i in s1:
-    print(s2.index(l))
+  return "".join(sorted(list(set(s1+s2))))  
 
-longest("aretheyhere", "yestheyarehere")
+longest("loopingisfunbutdangerous", "lessdangerousthancoding")
