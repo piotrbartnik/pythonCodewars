@@ -1,3 +1,4 @@
+# counting growth of populations
 def nb_year(p0, percent, aug, p):
   counter = 0
   while p0 < p:
