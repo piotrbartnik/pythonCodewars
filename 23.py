@@ -1,3 +1,4 @@
+# validate pin
 import re
 def validate_pin(pin):
   if pin == '1234\n':
