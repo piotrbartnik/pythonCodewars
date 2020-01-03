@@ -1,13 +1,13 @@
 def add_letters(*letters):
   sum = 0
   for i in letters:
-    sum += ord(i) - ord('a')
+    sum += ord(i) - ord('a') + 1
   
-  if sum >= ord('z') - ord('a'):
-    return chr(sum%(ord('z') - ord('a'))+ord('a'))
+  if sum > ord('z') - ord('a'):
+    sum = sum%(ord('z') - ord('a'))
+  
+  print(sum)
+  
+  print(chr(ord('a') - 1 +sum))
 
-  return chr(sum+ord('a'))
-
-  # print(ord(letters)-ord('a'))
-
-add_letters('z', 'a')
+add_letters('a', 'b', 'c')
